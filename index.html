@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Board de Tarefas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Cabeçalho -->
+    <header>
+      <h1>Board de tarefas</h1>
+    </header>
+
+    <!-- Formulário de Nova Tarefa -->
+    <form id="task-form">
+      <input type="text" id="task-name" placeholder="Nome da tarefa" required />
+      <input type="text" id="task-tag" placeholder="Etiqueta" />
+      <button type="submit" id="add-task">+</button>
+    </form>
+
+    <!-- Lista de Tarefas -->
+    <main id="task-list">
+      <!-- As tarefas serão adicionadas aqui pelo JavaScript -->
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <p id="task-counter">0 tarefas concluídas</p>
+    </footer>
+  </div>
+
+  <script src="javascript/script.js"></script>
+</body>
+</html>
